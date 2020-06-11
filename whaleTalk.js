@@ -1,4 +1,4 @@
-const input = 'Ugochukwu Remigius Chigbata';
+const input = 'turpines and turtles';
 const vowels = ['a','e','i','o','u'];
 let resultArray = [];
 for (inputIndex = 0; inputIndex<input.length; inputIndex++) {
@@ -15,3 +15,5 @@ for (inputIndex = 0; inputIndex<input.length; inputIndex++) {
   }
 }
 console.log(resultArray.join('').toUpperCase())
+
+// Outputs UUIEEAUUEE
